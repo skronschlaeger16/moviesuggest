@@ -12,3 +12,5 @@ plugins
 *.log
 *.DS_Store
 .angular
+.firebase
+public

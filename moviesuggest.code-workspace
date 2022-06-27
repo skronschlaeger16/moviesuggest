@@ -1,0 +1,33 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "i18n-ally.keystyle": "nested",
+        "telemetry.enableCrashReporter": false,
+        "i18n-ally.sourceLanguage": "de",
+        "i18n-ally.displayLanguage": "de",
+        "editor.detectIndentation": false,
+        "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/Thumbs.db": true,
+            ".vscode": true
+        },
+        "workbench.colorCustomizations": {
+            "[Community Material Theme Darker High Contrast], [Default Dark+]": {
+                "titleBar.activeBackground": "#667f96",
+                "titleBar.inactiveBackground": "#506175"
+            }
+        },
+      "window.title": "${dirty}${rootName}",
+  
+    }
+  
+  }
+  

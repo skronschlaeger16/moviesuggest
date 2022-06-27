@@ -3,8 +3,8 @@ A Ionic v6 project to recommend movies and series to friends
 
 
 ## Initialize Ionic 6
-1. `npm install @ionic/angular@6`
-2. `npm install -g @ionic/cli`
+`npm install @ionic/angular@6`
+`npm install -g @ionic/cli`
 
 
 ## Start an app
@@ -13,3 +13,12 @@ A Ionic v6 project to recommend movies and series to friends
 
 ## Run the app
 `ionic serve`
+
+
+## Firebase
+`npm i firebase @angular/fire`
+`npm i -g firebase-tools`
+`firebase login`
+`firebase init`
+`ionic build --prod --release`
+`firebase deploy`

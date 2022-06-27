@@ -1,4 +1,4 @@
-<ion-content color="primary">
+<ion-content >
   <ion-img></ion-img>
   <form #form="ngForm" (ngSubmit)="register(form)">
     <ion-grid>
@@ -28,6 +28,15 @@
           </div>
           </ion-col>
       </ion-row>
+      <ion-row>
+        <ion-col>
+
+        <div style="text-align: center;">
+      zum  <a routerLink='/login'>Login
+        </a>
+        </div>
+      </ion-col>
+    </ion-row>
     </ion-grid>
   </form>
 </ion-content>

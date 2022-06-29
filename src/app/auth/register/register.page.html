@@ -26,6 +26,8 @@
           <div style="padding: 1em;" >
             <ion-button  size="large" type="submit" [disabled]="form.invalid" expand="block">Registrieren</ion-button>
           </div>
+
+
           </ion-col>
       </ion-row>
       <ion-row>
@@ -34,6 +36,9 @@
         <div style="text-align: center;">
       zum  <a routerLink='/login'>Login
         </a>
+        </div>
+        <div>
+          <ion-button  size="large" (click)="googleTestLogin()" expand="block">Google Test Button</ion-button>
         </div>
       </ion-col>
     </ion-row>

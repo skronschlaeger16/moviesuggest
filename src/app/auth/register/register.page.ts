@@ -19,4 +19,8 @@ export class RegisterPage implements OnInit {
     this.authService.registerWithEmailAndPassword(this.username,this.email,this.password);
   }
 
+  googleTestLogin(){
+    this.authService.GoogleAuth();
+  }
+
 }

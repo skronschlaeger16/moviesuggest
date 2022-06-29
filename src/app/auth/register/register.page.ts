@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from 'src/app/core/auth.service';
 
 @Component({
   selector: 'app-register',
@@ -7,13 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterPage implements OnInit {
 
-  constructor() { }
-
+  constructor(private authService: AuthService) { }
+  username:string;
+  email:string;
+  password:string;
   ngOnInit() {
   }
 
-  register(form) {
+  register() {
+    this.authService.registerWithEmailAndPassword(this.username,this.email,this.password);
+  }
 
+  googleTestLogin(){
+    this.authService.GoogleAuth();
   }
 
 }

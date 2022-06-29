@@ -11,16 +11,16 @@
           </div>
           <div style="padding:1em">
             <ion-item>
-              <ion-input name="name" type="text" placeholder="Name" ngModel required></ion-input>
+              <ion-input name="name" type="text" placeholder="Name" [(ngModel)]="username" required></ion-input>
             </ion-item>
             <ion-item>
-              <ion-input name="email" type="email" placeholder="your@email.com" ngModel required></ion-input>
+              <ion-input name="email" type="email" placeholder="your@email.com" [(ngModel)]="email" required></ion-input>
             </ion-item>
             <ion-item>
-              <ion-input name="password" type="password" placeholder="Passwort" ngModel required></ion-input>
+              <ion-input name="password" type="password" placeholder="Passwort" [(ngModel)]="password" required></ion-input>
             </ion-item>
             <ion-item>
-              <ion-input name="confirm" type="password" placeholder="Passwort nochmal eingeben" ngModel required></ion-input>
+              <ion-input name="confirm" type="password" placeholder="Passwort nochmal eingeben" required></ion-input>
             </ion-item>
           </div>
           <div style="padding: 1em;" >

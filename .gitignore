@@ -1,5 +1,4 @@
 node_modules
-www
 .idea
 .temp
 .sass-cache
@@ -14,3 +13,4 @@ plugins
 .angular
 .firebase
 public
+www
